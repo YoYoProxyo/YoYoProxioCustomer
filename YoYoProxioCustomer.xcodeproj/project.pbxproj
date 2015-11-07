@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6123EE25E624D11EFC37ED89 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BFFB6D5087FD412C53C89E /* libPods.a */; };
+		B42946491BEE8A60009B336F /* YYPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946481BEE8A60009B336F /* YYPItem.m */; };
+		B429464C1BEEAE84009B336F /* sizeTag.png in Resources */ = {isa = PBXBuildFile; fileRef = B429464A1BEEAE84009B336F /* sizeTag.png */; };
+		B429464D1BEEAE84009B336F /* priceTag.png in Resources */ = {isa = PBXBuildFile; fileRef = B429464B1BEEAE84009B336F /* priceTag.png */; };
 		B4CFB7241BEE470900F6306D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7231BEE470900F6306D /* main.m */; };
 		B4CFB7271BEE470900F6306D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7261BEE470900F6306D /* AppDelegate.m */; };
 		B4CFB72A1BEE470900F6306D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7291BEE470900F6306D /* ViewController.m */; };
-		B4CFB72D1BEE470900F6306D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB72B1BEE470900F6306D /* Main.storyboard */; };
 		B4CFB72F1BEE470900F6306D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB72E1BEE470900F6306D /* Assets.xcassets */; };
 		B4CFB7321BEE470900F6306D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7301BEE470900F6306D /* LaunchScreen.storyboard */; };
 		B4CFB73D1BEE470A00F6306D /* YoYoProxioCustomerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB73C1BEE470A00F6306D /* YoYoProxioCustomerTests.m */; };
+		B4CFB7481BEE47E800F6306D /* BagOK@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7471BEE47E800F6306D /* BagOK@3x.png */; };
+		B4CFB74A1BEE48A800F6306D /* yoyo-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7491BEE48A800F6306D /* yoyo-logo.png */; };
+		B4CFB74C1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB74B1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg */; };
+		B4CFB74E1BEE4A3400F6306D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB74D1BEE4A3400F6306D /* Main.storyboard */; };
+		B4CFB7501BEE53B500F6306D /* CartOK@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */; };
+		B4CFB7581BEE5C7900F6306D /* bra.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7511BEE5C7900F6306D /* bra.png */; };
+		B4CFB7591BEE5C7900F6306D /* shoe.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7521BEE5C7900F6306D /* shoe.png */; };
+		B4CFB75A1BEE5C7900F6306D /* trousers.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7531BEE5C7900F6306D /* trousers.png */; };
+		B4CFB75B1BEE5C7900F6306D /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7541BEE5C7900F6306D /* dress.png */; };
+		B4CFB75C1BEE5C7900F6306D /* Basketfull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */; };
+		B4CFB75D1BEE5C7900F6306D /* shirt.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7561BEE5C7900F6306D /* shirt.png */; };
+		B4CFB75E1BEE5C7900F6306D /* pants.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7571BEE5C7900F6306D /* pants.png */; };
+		B4CFB7601BEE5D6900F6306D /* Mobilepay@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB75F1BEE5D6900F6306D /* Mobilepay@3x.png */; };
+		B4CFB7631BEE70BA00F6306D /* BrowseController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7621BEE70BA00F6306D /* BrowseController.m */; };
+		B4CFB7661BEE70CB00F6306D /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7651BEE70CB00F6306D /* DetailController.m */; };
+		B4CFB7691BEE70F200F6306D /* SmallNearbyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7681BEE70F200F6306D /* SmallNearbyTableViewCell.m */; };
+		B4CFB76C1BEE770000F6306D /* PayController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB76B1BEE770000F6306D /* PayController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +47,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11BFFB6D5087FD412C53C89E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		180B5C7E32EB7771E719D8F8 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B42946471BEE8A60009B336F /* YYPItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPItem.h; sourceTree = "<group>"; };
+		B42946481BEE8A60009B336F /* YYPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPItem.m; sourceTree = "<group>"; };
+		B429464A1BEEAE84009B336F /* sizeTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sizeTag.png; sourceTree = "<group>"; };
+		B429464B1BEEAE84009B336F /* priceTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priceTag.png; sourceTree = "<group>"; };
+		B4743578E9CFD886DB452B5D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B4CFB71F1BEE470900F6306D /* YoYoProxioCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYoProxioCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CFB7231BEE470900F6306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B4CFB7251BEE470900F6306D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B4CFB7261BEE470900F6306D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B4CFB7281BEE470900F6306D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B4CFB7291BEE470900F6306D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B4CFB72C1BEE470900F6306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4CFB72E1BEE470900F6306D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4CFB7311BEE470900F6306D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4CFB7331BEE470900F6306D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4CFB7381BEE470A00F6306D /* YoYoProxioCustomerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoYoProxioCustomerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CFB73C1BEE470A00F6306D /* YoYoProxioCustomerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoYoProxioCustomerTests.m; sourceTree = "<group>"; };
 		B4CFB73E1BEE470A00F6306D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4CFB7471BEE47E800F6306D /* BagOK@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BagOK@3x.png"; sourceTree = "<group>"; };
+		B4CFB7491BEE48A800F6306D /* yoyo-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yoyo-logo.png"; sourceTree = "<group>"; };
+		B4CFB74B1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg"; sourceTree = "<group>"; };
+		B4CFB74D1BEE4A3400F6306D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CartOK@3x.png"; sourceTree = "<group>"; };
+		B4CFB7511BEE5C7900F6306D /* bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bra.png; sourceTree = "<group>"; };
+		B4CFB7521BEE5C7900F6306D /* shoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe.png; sourceTree = "<group>"; };
+		B4CFB7531BEE5C7900F6306D /* trousers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trousers.png; sourceTree = "<group>"; };
+		B4CFB7541BEE5C7900F6306D /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = "<group>"; };
+		B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketfull@3x.png"; sourceTree = "<group>"; };
+		B4CFB7561BEE5C7900F6306D /* shirt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shirt.png; sourceTree = "<group>"; };
+		B4CFB7571BEE5C7900F6306D /* pants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pants.png; sourceTree = "<group>"; };
+		B4CFB75F1BEE5D6900F6306D /* Mobilepay@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mobilepay@3x.png"; sourceTree = "<group>"; };
+		B4CFB7611BEE70BA00F6306D /* BrowseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowseController.h; sourceTree = "<group>"; };
+		B4CFB7621BEE70BA00F6306D /* BrowseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowseController.m; sourceTree = "<group>"; };
+		B4CFB7641BEE70CB00F6306D /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		B4CFB7651BEE70CB00F6306D /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		B4CFB7671BEE70F200F6306D /* SmallNearbyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallNearbyTableViewCell.h; sourceTree = "<group>"; };
+		B4CFB7681BEE70F200F6306D /* SmallNearbyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallNearbyTableViewCell.m; sourceTree = "<group>"; };
+		B4CFB76A1BEE770000F6306D /* PayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayController.h; sourceTree = "<group>"; };
+		B4CFB76B1BEE770000F6306D /* PayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6123EE25E624D11EFC37ED89 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +108,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73B22B4C614B88424631AD34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11BFFB6D5087FD412C53C89E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B4CFB7161BEE470900F6306D = {
 			isa = PBXGroup;
 			children = (
 				B4CFB7211BEE470900F6306D /* YoYoProxioCustomer */,
 				B4CFB73B1BEE470A00F6306D /* YoYoProxioCustomerTests */,
 				B4CFB7201BEE470900F6306D /* Products */,
+				BD87AE71671F5EC45BD42D0C /* Pods */,
+				73B22B4C614B88424631AD34 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,10 +143,34 @@
 				B4CFB7261BEE470900F6306D /* AppDelegate.m */,
 				B4CFB7281BEE470900F6306D /* ViewController.h */,
 				B4CFB7291BEE470900F6306D /* ViewController.m */,
-				B4CFB72B1BEE470900F6306D /* Main.storyboard */,
+				B4CFB7471BEE47E800F6306D /* BagOK@3x.png */,
+				B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */,
+				B4CFB74D1BEE4A3400F6306D /* Main.storyboard */,
+				B429464A1BEEAE84009B336F /* sizeTag.png */,
+				B429464B1BEEAE84009B336F /* priceTag.png */,
+				B4CFB76A1BEE770000F6306D /* PayController.h */,
+				B4CFB76B1BEE770000F6306D /* PayController.m */,
+				B4CFB7641BEE70CB00F6306D /* DetailController.h */,
+				B4CFB7651BEE70CB00F6306D /* DetailController.m */,
+				B4CFB7671BEE70F200F6306D /* SmallNearbyTableViewCell.h */,
+				B4CFB7681BEE70F200F6306D /* SmallNearbyTableViewCell.m */,
+				B4CFB7611BEE70BA00F6306D /* BrowseController.h */,
+				B4CFB7621BEE70BA00F6306D /* BrowseController.m */,
+				B42946471BEE8A60009B336F /* YYPItem.h */,
+				B42946481BEE8A60009B336F /* YYPItem.m */,
 				B4CFB72E1BEE470900F6306D /* Assets.xcassets */,
 				B4CFB7301BEE470900F6306D /* LaunchScreen.storyboard */,
 				B4CFB7331BEE470900F6306D /* Info.plist */,
+				B4CFB7491BEE48A800F6306D /* yoyo-logo.png */,
+				B4CFB74B1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg */,
+				B4CFB7511BEE5C7900F6306D /* bra.png */,
+				B4CFB7521BEE5C7900F6306D /* shoe.png */,
+				B4CFB7531BEE5C7900F6306D /* trousers.png */,
+				B4CFB7541BEE5C7900F6306D /* dress.png */,
+				B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */,
+				B4CFB7561BEE5C7900F6306D /* shirt.png */,
+				B4CFB7571BEE5C7900F6306D /* pants.png */,
+				B4CFB75F1BEE5D6900F6306D /* Mobilepay@3x.png */,
 				B4CFB7221BEE470900F6306D /* Supporting Files */,
 			);
 			path = YoYoProxioCustomer;
@@ -111,6 +193,15 @@
 			path = YoYoProxioCustomerTests;
 			sourceTree = "<group>";
 		};
+		BD87AE71671F5EC45BD42D0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				180B5C7E32EB7771E719D8F8 /* Pods.debug.xcconfig */,
+				B4743578E9CFD886DB452B5D /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +209,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4CFB7411BEE470A00F6306D /* Build configuration list for PBXNativeTarget "YoYoProxioCustomer" */;
 			buildPhases = (
+				9725AC73BA44D2AEFE98A1E1 /* Check Pods Manifest.lock */,
 				B4CFB71B1BEE470900F6306D /* Sources */,
 				B4CFB71C1BEE470900F6306D /* Frameworks */,
 				B4CFB71D1BEE470900F6306D /* Resources */,
+				E4CF0E76503C28904DC3B8EC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -192,8 +285,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4CFB7321BEE470900F6306D /* LaunchScreen.storyboard in Resources */,
+				B4CFB75B1BEE5C7900F6306D /* dress.png in Resources */,
+				B4CFB74A1BEE48A800F6306D /* yoyo-logo.png in Resources */,
+				B4CFB7591BEE5C7900F6306D /* shoe.png in Resources */,
+				B4CFB75E1BEE5C7900F6306D /* pants.png in Resources */,
+				B429464C1BEEAE84009B336F /* sizeTag.png in Resources */,
+				B4CFB75D1BEE5C7900F6306D /* shirt.png in Resources */,
+				B4CFB75C1BEE5C7900F6306D /* Basketfull@3x.png in Resources */,
+				B4CFB74C1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg in Resources */,
+				B4CFB75A1BEE5C7900F6306D /* trousers.png in Resources */,
+				B4CFB74E1BEE4A3400F6306D /* Main.storyboard in Resources */,
 				B4CFB72F1BEE470900F6306D /* Assets.xcassets in Resources */,
-				B4CFB72D1BEE470900F6306D /* Main.storyboard in Resources */,
+				B4CFB7601BEE5D6900F6306D /* Mobilepay@3x.png in Resources */,
+				B429464D1BEEAE84009B336F /* priceTag.png in Resources */,
+				B4CFB7481BEE47E800F6306D /* BagOK@3x.png in Resources */,
+				B4CFB7501BEE53B500F6306D /* CartOK@3x.png in Resources */,
+				B4CFB7581BEE5C7900F6306D /* bra.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,14 +313,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9725AC73BA44D2AEFE98A1E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CF0E76503C28904DC3B8EC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B4CFB71B1BEE470900F6306D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4CFB76C1BEE770000F6306D /* PayController.m in Sources */,
 				B4CFB72A1BEE470900F6306D /* ViewController.m in Sources */,
 				B4CFB7271BEE470900F6306D /* AppDelegate.m in Sources */,
+				B4CFB7661BEE70CB00F6306D /* DetailController.m in Sources */,
 				B4CFB7241BEE470900F6306D /* main.m in Sources */,
+				B42946491BEE8A60009B336F /* YYPItem.m in Sources */,
+				B4CFB7691BEE70F200F6306D /* SmallNearbyTableViewCell.m in Sources */,
+				B4CFB7631BEE70BA00F6306D /* BrowseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,14 +381,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B4CFB72B1BEE470900F6306D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4CFB72C1BEE470900F6306D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B4CFB7301BEE470900F6306D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -337,9 +474,11 @@
 		};
 		B4CFB7421BEE470A00F6306D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 180B5C7E32EB7771E719D8F8 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoYoProxioCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pomelotreeapps.YoYoProxioCustomer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,9 +487,11 @@
 		};
 		B4CFB7431BEE470A00F6306D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4743578E9CFD886DB452B5D /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YoYoProxioCustomer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pomelotreeapps.YoYoProxioCustomer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -400,6 +541,7 @@
 				B4CFB7431BEE470A00F6306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B4CFB7441BEE470A00F6306D /* Build configuration list for PBXNativeTarget "YoYoProxioCustomerTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +550,7 @@
 				B4CFB7461BEE470A00F6306D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,17 +18,49 @@
 +(YYPItem*) itemWithBeacon:(CLBeacon*) beacon {
     // Should be referring to item
     YYPItem* item = [[YYPItem alloc] init];
-    
+    if ([beacon.minor isEqualToNumber:@3720] || [beacon.minor isEqualToNumber:@58632]) {
+        item.manufacturer = @"yoyo-prox.io";
+        item.beaconId = beacon.minor;
+        item.itemType = @"fixed";
+        item.strength = beacon.rssi;
+        item.price = @"0.00";
+        return item;
+    }
+
     return [YYPItem simpleBeacon:beacon];
+}
+
++(YYPItem*) nilItem {
+    YYPItem* item = [[YYPItem alloc] init];
+    item.beaconId = [NSNumber numberWithInt:0];
+    item.manufacturer = @"";
+    item.itemType = @"";
+    item.size = @"";
+    item.price = @"";
+    return item;
+}
+
++(YYPItem*) dress {
+    YYPItem* item = [[YYPItem alloc] init];
+    item.beaconId = [NSNumber numberWithInt:18810];
+    item.manufacturer = @"River Island";
+    item.itemType = @"dress";
+    item.size = @"12";
+    item.price = @"29.99";
+    item.strength = 100;
+        item.image = [YYPItem imageForType:item.itemType];
+    return item;
 }
 
 +(YYPItem*) simpleBeacon:(CLBeacon*) beacon {
     YYPItem* item = [[YYPItem alloc] init];
     item.beaconId = beacon.minor;
     
+    
+    
     if ([beacon.minor isEqualToNumber:@18810]) {
         item.itemType = @"dress";
-        item.manufacturer = @"Donna Karan";
+        item.manufacturer = @"River Island";
         item.price = @"2500";
     } else if([beacon.minor isEqualToNumber:@21023]) {
         item.itemType = @"shirt";
@@ -38,7 +70,9 @@
         item.itemType = @"pants";
         item.manufacturer = @"Tighty Whitey";
         item.price = @"5";
-    } else {
+    } else if([beacon.minor isEqualToNumber:@3720]) {
+        item.itemType = @"fixed";
+    }    else {
         int val = [beacon.minor intValue] % 3;
         if (val == 0) {
             item.itemType = @"shoes";
@@ -54,6 +88,7 @@
             item.price = @"24.99";
         }
     }
+    item.strength = beacon.rssi;
     item.image = [YYPItem imageForType:item.itemType];
     item.size = @"Large";
     return item;

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserManager.h"
 
 typedef enum : int
 {
@@ -16,5 +17,5 @@ typedef enum : int
 } ESTScanType;
 
 @interface BrowseController : UIViewController
-
+@property (weak, nonatomic) UserManager* manager;
 @end

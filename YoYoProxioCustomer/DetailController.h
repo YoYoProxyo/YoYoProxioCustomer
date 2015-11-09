@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YYPItem.h"
+#import "UserManager.h"
 
 @interface DetailController : UIViewController
-
+@property (weak, nonatomic) YYPItem* item;
+@property (weak,  nonatomic) UserManager* manager;
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UserManager.h"
+#import "YYPItem.h"
 
 @interface PayController : UIViewController
-
+@property (strong, nonatomic) UserManager* manager;
+@property (strong, nonatomic) YYPItem* item;
 @end

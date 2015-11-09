@@ -17,7 +17,9 @@
 @property (strong, nonatomic) NSString* size;
 @property (strong, nonatomic) NSNumber* beaconId;
 @property (strong, nonatomic) UIImage* image;
-
+@property NSInteger strength;
 
 +(YYPItem*) itemWithBeacon:(CLBeacon*) beacon;
++(YYPItem*) nilItem;
++(YYPItem*) dress ;
 @end

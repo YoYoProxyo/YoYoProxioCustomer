@@ -11,6 +11,17 @@
 		B42946491BEE8A60009B336F /* YYPItem.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946481BEE8A60009B336F /* YYPItem.m */; };
 		B429464C1BEEAE84009B336F /* sizeTag.png in Resources */ = {isa = PBXBuildFile; fileRef = B429464A1BEEAE84009B336F /* sizeTag.png */; };
 		B429464D1BEEAE84009B336F /* priceTag.png in Resources */ = {isa = PBXBuildFile; fileRef = B429464B1BEEAE84009B336F /* priceTag.png */; };
+		B429464F1BEECF58009B336F /* Forrest.gif in Resources */ = {isa = PBXBuildFile; fileRef = B429464E1BEECF58009B336F /* Forrest.gif */; };
+		B42946521BEED2A4009B336F /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946511BEED2A4009B336F /* UIImage+animatedGIF.m */; };
+		B42946541BEED428009B336F /* Bill.gif in Resources */ = {isa = PBXBuildFile; fileRef = B42946531BEED428009B336F /* Bill.gif */; };
+		B42946571BEED4EC009B336F /* UserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946561BEED4EC009B336F /* UserManager.m */; };
+		B429465A1BEED4F5009B336F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946591BEED4F5009B336F /* User.m */; };
+		B429465D1BEEDB35009B336F /* SignInController.m in Sources */ = {isa = PBXBuildFile; fileRef = B429465C1BEEDB35009B336F /* SignInController.m */; };
+		B429465F1BEEE114009B336F /* Influence@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B429465E1BEEE114009B336F /* Influence@3x.png */; };
+		B42946621BEF36C9009B336F /* StatusMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946611BEF36C9009B336F /* StatusMessage.m */; };
+		B42946651BEF381C009B336F /* PusherController.m in Sources */ = {isa = PBXBuildFile; fileRef = B42946641BEF381C009B336F /* PusherController.m */; };
+		B42946671BEF5F68009B336F /* qrCode.png in Resources */ = {isa = PBXBuildFile; fileRef = B42946661BEF5F68009B336F /* qrCode.png */; };
+		B42946691BEF653B009B336F /* Cart@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B42946681BEF653B009B336F /* Cart@3x.png */; };
 		B4CFB7241BEE470900F6306D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7231BEE470900F6306D /* main.m */; };
 		B4CFB7271BEE470900F6306D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7261BEE470900F6306D /* AppDelegate.m */; };
 		B4CFB72A1BEE470900F6306D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4CFB7291BEE470900F6306D /* ViewController.m */; };
@@ -23,7 +34,7 @@
 		B4CFB74E1BEE4A3400F6306D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB74D1BEE4A3400F6306D /* Main.storyboard */; };
 		B4CFB7501BEE53B500F6306D /* CartOK@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */; };
 		B4CFB7581BEE5C7900F6306D /* bra.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7511BEE5C7900F6306D /* bra.png */; };
-		B4CFB7591BEE5C7900F6306D /* shoe.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7521BEE5C7900F6306D /* shoe.png */; };
+		B4CFB7591BEE5C7900F6306D /* shoes.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7521BEE5C7900F6306D /* shoes.png */; };
 		B4CFB75A1BEE5C7900F6306D /* trousers.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7531BEE5C7900F6306D /* trousers.png */; };
 		B4CFB75B1BEE5C7900F6306D /* dress.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7541BEE5C7900F6306D /* dress.png */; };
 		B4CFB75C1BEE5C7900F6306D /* Basketfull@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */; };
@@ -53,6 +64,23 @@
 		B42946481BEE8A60009B336F /* YYPItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPItem.m; sourceTree = "<group>"; };
 		B429464A1BEEAE84009B336F /* sizeTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sizeTag.png; sourceTree = "<group>"; };
 		B429464B1BEEAE84009B336F /* priceTag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priceTag.png; sourceTree = "<group>"; };
+		B429464E1BEECF58009B336F /* Forrest.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Forrest.gif; sourceTree = "<group>"; };
+		B42946501BEED2A4009B336F /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		B42946511BEED2A4009B336F /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		B42946531BEED428009B336F /* Bill.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Bill.gif; sourceTree = "<group>"; };
+		B42946551BEED4EC009B336F /* UserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserManager.h; sourceTree = "<group>"; };
+		B42946561BEED4EC009B336F /* UserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserManager.m; sourceTree = "<group>"; };
+		B42946581BEED4F5009B336F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B42946591BEED4F5009B336F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B429465B1BEEDB35009B336F /* SignInController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInController.h; sourceTree = "<group>"; };
+		B429465C1BEEDB35009B336F /* SignInController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInController.m; sourceTree = "<group>"; };
+		B429465E1BEEE114009B336F /* Influence@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Influence@3x.png"; sourceTree = "<group>"; };
+		B42946601BEF36C9009B336F /* StatusMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusMessage.h; sourceTree = "<group>"; };
+		B42946611BEF36C9009B336F /* StatusMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusMessage.m; sourceTree = "<group>"; };
+		B42946631BEF381C009B336F /* PusherController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PusherController.h; sourceTree = "<group>"; };
+		B42946641BEF381C009B336F /* PusherController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PusherController.m; sourceTree = "<group>"; };
+		B42946661BEF5F68009B336F /* qrCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrCode.png; sourceTree = "<group>"; };
+		B42946681BEF653B009B336F /* Cart@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cart@3x.png"; sourceTree = "<group>"; };
 		B4743578E9CFD886DB452B5D /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		B4CFB71F1BEE470900F6306D /* YoYoProxioCustomer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoYoProxioCustomer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4CFB7231BEE470900F6306D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -72,7 +100,7 @@
 		B4CFB74D1BEE4A3400F6306D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CartOK@3x.png"; sourceTree = "<group>"; };
 		B4CFB7511BEE5C7900F6306D /* bra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bra.png; sourceTree = "<group>"; };
-		B4CFB7521BEE5C7900F6306D /* shoe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoe.png; sourceTree = "<group>"; };
+		B4CFB7521BEE5C7900F6306D /* shoes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoes.png; sourceTree = "<group>"; };
 		B4CFB7531BEE5C7900F6306D /* trousers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trousers.png; sourceTree = "<group>"; };
 		B4CFB7541BEE5C7900F6306D /* dress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dress.png; sourceTree = "<group>"; };
 		B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Basketfull@3x.png"; sourceTree = "<group>"; };
@@ -146,25 +174,42 @@
 				B4CFB7471BEE47E800F6306D /* BagOK@3x.png */,
 				B4CFB74F1BEE53B500F6306D /* CartOK@3x.png */,
 				B4CFB74D1BEE4A3400F6306D /* Main.storyboard */,
+				B42946601BEF36C9009B336F /* StatusMessage.h */,
+				B42946611BEF36C9009B336F /* StatusMessage.m */,
+				B42946631BEF381C009B336F /* PusherController.h */,
+				B42946641BEF381C009B336F /* PusherController.m */,
+				B42946681BEF653B009B336F /* Cart@3x.png */,
+				B42946551BEED4EC009B336F /* UserManager.h */,
+				B429465B1BEEDB35009B336F /* SignInController.h */,
+				B429465C1BEEDB35009B336F /* SignInController.m */,
+				B42946561BEED4EC009B336F /* UserManager.m */,
+				B42946581BEED4F5009B336F /* User.h */,
+				B42946591BEED4F5009B336F /* User.m */,
+				B42946501BEED2A4009B336F /* UIImage+animatedGIF.h */,
+				B42946511BEED2A4009B336F /* UIImage+animatedGIF.m */,
+				B42946661BEF5F68009B336F /* qrCode.png */,
 				B429464A1BEEAE84009B336F /* sizeTag.png */,
 				B429464B1BEEAE84009B336F /* priceTag.png */,
 				B4CFB76A1BEE770000F6306D /* PayController.h */,
 				B4CFB76B1BEE770000F6306D /* PayController.m */,
 				B4CFB7641BEE70CB00F6306D /* DetailController.h */,
 				B4CFB7651BEE70CB00F6306D /* DetailController.m */,
+				B429465E1BEEE114009B336F /* Influence@3x.png */,
 				B4CFB7671BEE70F200F6306D /* SmallNearbyTableViewCell.h */,
 				B4CFB7681BEE70F200F6306D /* SmallNearbyTableViewCell.m */,
 				B4CFB7611BEE70BA00F6306D /* BrowseController.h */,
 				B4CFB7621BEE70BA00F6306D /* BrowseController.m */,
 				B42946471BEE8A60009B336F /* YYPItem.h */,
 				B42946481BEE8A60009B336F /* YYPItem.m */,
+				B429464E1BEECF58009B336F /* Forrest.gif */,
+				B42946531BEED428009B336F /* Bill.gif */,
 				B4CFB72E1BEE470900F6306D /* Assets.xcassets */,
 				B4CFB7301BEE470900F6306D /* LaunchScreen.storyboard */,
 				B4CFB7331BEE470900F6306D /* Info.plist */,
 				B4CFB7491BEE48A800F6306D /* yoyo-logo.png */,
 				B4CFB74B1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg */,
 				B4CFB7511BEE5C7900F6306D /* bra.png */,
-				B4CFB7521BEE5C7900F6306D /* shoe.png */,
+				B4CFB7521BEE5C7900F6306D /* shoes.png */,
 				B4CFB7531BEE5C7900F6306D /* trousers.png */,
 				B4CFB7541BEE5C7900F6306D /* dress.png */,
 				B4CFB7551BEE5C7900F6306D /* Basketfull@3x.png */,
@@ -284,15 +329,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42946541BEED428009B336F /* Bill.gif in Resources */,
+				B42946691BEF653B009B336F /* Cart@3x.png in Resources */,
+				B429464F1BEECF58009B336F /* Forrest.gif in Resources */,
 				B4CFB7321BEE470900F6306D /* LaunchScreen.storyboard in Resources */,
 				B4CFB75B1BEE5C7900F6306D /* dress.png in Resources */,
 				B4CFB74A1BEE48A800F6306D /* yoyo-logo.png in Resources */,
-				B4CFB7591BEE5C7900F6306D /* shoe.png in Resources */,
+				B4CFB7591BEE5C7900F6306D /* shoes.png in Resources */,
 				B4CFB75E1BEE5C7900F6306D /* pants.png in Resources */,
 				B429464C1BEEAE84009B336F /* sizeTag.png in Resources */,
+				B42946671BEF5F68009B336F /* qrCode.png in Resources */,
 				B4CFB75D1BEE5C7900F6306D /* shirt.png in Resources */,
 				B4CFB75C1BEE5C7900F6306D /* Basketfull@3x.png in Resources */,
 				B4CFB74C1BEE49BF00F6306D /* Yoyo-Logotype-(CMYK)--tojpeg_1444312725000_x2.jpg in Resources */,
+				B429465F1BEEE114009B336F /* Influence@3x.png in Resources */,
 				B4CFB75A1BEE5C7900F6306D /* trousers.png in Resources */,
 				B4CFB74E1BEE4A3400F6306D /* Main.storyboard in Resources */,
 				B4CFB72F1BEE470900F6306D /* Assets.xcassets in Resources */,
@@ -353,11 +403,17 @@
 			files = (
 				B4CFB76C1BEE770000F6306D /* PayController.m in Sources */,
 				B4CFB72A1BEE470900F6306D /* ViewController.m in Sources */,
+				B42946571BEED4EC009B336F /* UserManager.m in Sources */,
 				B4CFB7271BEE470900F6306D /* AppDelegate.m in Sources */,
 				B4CFB7661BEE70CB00F6306D /* DetailController.m in Sources */,
+				B42946621BEF36C9009B336F /* StatusMessage.m in Sources */,
+				B429465D1BEEDB35009B336F /* SignInController.m in Sources */,
+				B42946521BEED2A4009B336F /* UIImage+animatedGIF.m in Sources */,
+				B429465A1BEED4F5009B336F /* User.m in Sources */,
 				B4CFB7241BEE470900F6306D /* main.m in Sources */,
 				B42946491BEE8A60009B336F /* YYPItem.m in Sources */,
 				B4CFB7691BEE70F200F6306D /* SmallNearbyTableViewCell.m in Sources */,
+				B42946651BEF381C009B336F /* PusherController.m in Sources */,
 				B4CFB7631BEE70BA00F6306D /* BrowseController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
